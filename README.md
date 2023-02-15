@@ -9,7 +9,7 @@ The following are my findings about the host data given to me for part one of th
 
 
 ## Part Two and Three
-The code in censysTechnical.ipynb serves as the part *two* and *three* of my technical interview. All hosts queried are running Confluence on the HTTP service, similar to the host from part one. The goal is to determine out of the distinct count of queried hosts, how many are running a version of Confluence vulnerable to the [CVE-2022-26134](https://nvd.nist.gov/vuln/detail/CVE-2022-26134) vulnerability. This vulnerability has a CVSS of 9.8, as it allows for unathenticated remote code execution.\
+The code in censysTechnical.ipynb serves as the part *two* and *three* of my technical interview. All hosts queried are running Confluence on the HTTP service, similar to the host from part one. The goal is to determine out of the distinct count of queried hosts, how many are running a version of Confluence vulnerable to the [CVE-2022-26134](https://nvd.nist.gov/vuln/detail/CVE-2022-26134) vulnerability. This vulnerability has a CVSS of 9.8, as it allows for unauthenticated remote code execution.\
 This analysis was inspired by [this](https://censys.io/cve-2022-26134-confluenza-omicron-edition/) Censys blog post written by Mark Ellzey.\
 **Note**: You must authenticate using your own Censys API ID and secret using the command line before running this code.
 
