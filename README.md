@@ -5,7 +5,7 @@ The following are my findings about the host data given to me for part one of th
 - This host is an nginx web server running Confluence version 7.13.2. This information is found within the following HTTP responses:
   - services.http.response.headers.Server: nginx
   - services.http.response.html_tags: <title>主页面 - Confluence</title>
-  - services.http.response.html_tags: <meta name="ajs-version-number" content="7.13.2">
+  - services.http.response.html_tags: `<meta name="ajs-version-number" content="7.13.2">`
 
 
 ## Part Two and Three
